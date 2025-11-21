@@ -7,7 +7,7 @@
     "dev": "vite --host",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "gh-pages -d dist"
+   "deploy": "gh-pages -d dist -r https://github.com/Monika1219/monika-kumar-portfolio.git"
   },
   "dependencies": {
     "@relume_io/relume-ui": "latest",
