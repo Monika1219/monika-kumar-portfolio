@@ -7,4 +7,5 @@ export default defineConfig({
     host: true,
     allowedHosts: true,
   },
+  base: '/monika-kumar-portfolio/'
 })
