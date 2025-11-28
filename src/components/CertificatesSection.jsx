@@ -7,25 +7,25 @@ function CertificatesSection() {
       name: 'NCFE Level 4 Diploma Data Analyst', 
       issuer: 'NCFE', 
       year: '17 October 2025',
-      link: 'https://drive.google.com/file/d/13TsOGC-x_dZabhDlNUhf9Wd_KltuW13p/view?usp=drive_link'
+      link: 'https://drive.google.com/file/d/13TsOGC-x_dZabhDlNUhf9Wd_KltuW13p/view?usp=sharing'
     },
     { 
       name: 'NCFE Level 3 Certificate in Data', 
       issuer: 'NCFE', 
       year: '06 March 2025',
-      link: 'https://drive.google.com/file/d/1ZD5CAutqJZfRJoYydiHPAO_fIsoBgZtQ/view?usp=drive_link'
+      link: 'https://drive.google.com/file/d/1ZD5CAutqJZfRJoYydiHPAO_fIsoBgZtQ/view?usp=sharing'
     },
     { 
       name: 'Data Analysis Practical Training', 
       issuer: 'Future Connect Training Institute', 
       year: '26 February 2025',
-      link: 'https://drive.google.com/file/d/1y42haOS4t_P7zu6BGp1o-aLPxXxGuamd/view?usp=drive_link'
+      link: 'https://drive.google.com/file/d/1y42haOS4t_P7zu6BGp1o-aLPxXxGuamd/view?usp=sharing'
     },
     { 
       name: 'Cyber Infrastructure Technician', 
       issuer: 'iMeta Training', 
       year: '28 March 2024',
-      link: 'https://drive.google.com/file/d/1LZCwbqMOXoC2G2G-WJV76LybCodXQAuM/view?usp=drive_link'
+      link: 'https://drive.google.com/file/d/1LZCwbqMOXoC2G2G-WJV76LybCodXQAuM/view?usp=sharing'
     },
   ];
 
