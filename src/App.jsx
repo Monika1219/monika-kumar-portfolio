@@ -1,3 +1,5 @@
+﻿// filepath: c:\Users\Acer\Downloads\portfoliogit\src\App.jsx
+// ...existing code...
 import React from 'react';
 import Sidebar from './components/Sidebar';
 import HeroSection from './components/HeroSection';
@@ -13,7 +15,8 @@ function App() {
   return (
     <div className="min-h-screen bg-white">
       <Sidebar />
-      <div className="ml-64">
+      {/* apply left margin only on md+ so mobile uses full width */}
+      <div className="md:ml-64">
         <HeroSection />
         <AboutSection />
         <SkillsSection />
@@ -28,3 +31,4 @@ function App() {
 }
 
 export default App;
+// ...existing code...

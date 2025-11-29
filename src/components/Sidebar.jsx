@@ -1,3 +1,5 @@
+﻿// filepath: c:\Users\Acer\Downloads\portfoliogit\src\components\Sidebar.jsx
+// ...existing code...
 import React from 'react';
 import { Link } from 'react-scroll';
 import { Linkedin, User, FileDown, Award, Briefcase, Mail } from 'lucide-react';
@@ -12,7 +14,8 @@ function Sidebar() {
   ];
 
   return (
-    <div className="fixed left-0 top-0 h-screen w-64 border-r border-neutral-200 flex flex-col items-center py-8 px-6 z-50" style={{ backgroundColor: '#F0E8E5' }}>
+    // Hidden on small screens, visible (fixed) from md and up
+    <div className="hidden md:flex fixed left-0 top-0 h-screen w-64 border-r border-neutral-200 flex-col items-center py-8 px-6 z-50" style={{ backgroundColor: '#F0E8E5' }}>
       <div className="mb-8">
         <div className="w-32 h-32 rounded-full overflow-hidden border-4 shadow-lg" style={{ borderColor: '#BFA688' }}>
           <img
@@ -55,3 +58,4 @@ function Sidebar() {
 }
 
 export default Sidebar;
+// ...existing code...
