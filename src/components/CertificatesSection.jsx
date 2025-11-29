@@ -2,33 +2,14 @@ import React from 'react';
 import { Award, ExternalLink } from 'lucide-react';
 
 function CertificatesSection() {
+  const base = process.env.PUBLIC_URL || '';
   const certificates = [
-    { 
-      name: 'NCFE Level 4 Diploma Data Analyst', 
-      issuer: 'NCFE', 
-      year: '17 October 2025',
-      link: '/certificates/ncfe_level4_watermarked.pdf'
-    },
-    { 
-      name: 'NCFE Level 3 Certificate in Data', 
-      issuer: 'NCFE', 
-      year: '06 March 2025',
-      link: '/certificates/ncfe_level3_watermarked.pdf'
-    },
-    { 
-      name: 'Data Analysis Practical Training', 
-      issuer: 'Future Connect Training Institute', 
-      year: '26 February 2025',
-      link: '/certificates/data_analysis_practical_training_watermarked.pdf'
-    },
-    { 
-      name: 'Cyber Infrastructure Technician', 
-      issuer: 'iMeta Training', 
-      year: '28 March 2024',
-      link: '/certificates/cyber_infrastructure_technician_watermarked.pdf'
-    },
+    { name: 'NCFE Level 4 Diploma Data Analyst', issuer: 'NCFE', year: '17 October 2025', url: `${base}/certificates/ncfe_level4_watermarked.pdf` },
+    { name: 'NCFE Level 3 Certificate in Data', issuer: 'NCFE', year: '06 March 2025', url: `${base}/certificates/ncfe_level3_watermarked.pdf` },
+    { name: 'Data Analysis Practical Training', issuer: 'Future Connect Training Institute', year: '26 February 2025', url: `${base}/certificates/data_analysis_practical_training_watermarked.pdf` },
+    { name: 'Cyber Infrastructure Technician', issuer: 'iMeta Training', year: '28 March 2024', url: `${base}/certificates/cyber_infrastructure_technician_watermarked.pdf` },
   ];
-
+    
   return (
     <section id="certificates" className="py-20 bg-white">
       <div className="max-w-5xl mx-auto px-8">
@@ -37,7 +18,7 @@ function CertificatesSection() {
           {certificates.map((cert, index) => (
             <a
               key={index}
-              href={cert.link}
+              href={cert.url}
               target="_blank"
               rel="noopener noreferrer"
               className="block p-6 border-2 border-neutral-200 rounded-xl hover:border-primary-300 hover:shadow-lg transition-all bg-neutral-50 cursor-pointer"
